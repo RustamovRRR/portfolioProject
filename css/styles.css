@@ -230,7 +230,16 @@ Navbar
     align-items: center;
   }
 }
-
+/* fixed navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clrWhite);
+  z-index: 2;
+  box-shadow: var(--lightShadow);
+}
 /*
 =============== 
 Sidebar
