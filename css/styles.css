@@ -189,17 +189,46 @@ Navbar
 }
 .nav-header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   align-items: center;
 }
-.nav-btn{
+.nav-btn {
   background: transparent;
   border-color: transparent;
   color: var(--clrPrimary5);
   font-size: 2rem;
   cursor: pointer;
   justify-self: end;
-
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    background: var(--clrPrimary10);
+  }
+  .nav-btn {
+    display: none;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    justify-items: center;
+    justify-self: end;
+  }
+  .nav-links a {
+    text-transform: capitalize;
+    color: var(--clrGrey1);
+    font-weight: bold;
+    transition: var(--transition);
+  }
+  .nav-links a:hover {
+    color: var(--clrPrimary5);
+  }
+  .nav-center {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 /*
