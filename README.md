@@ -1,1 +1,1 @@
-portfolioProject. Link to the project: https://miniprojectswithgrid.netlify.app/
+portfolioProject. Link to the project: https://portfolioprojectnovember.netlify.app/
