@@ -886,7 +886,21 @@ Footer
 Single Page
 ===============
 */
-
+.single-page {
+  background: var(--clrPrimary10);
+  min-height: calc(100vh - 5rem - 198px);
+}
+.page-info {
+  max-width: 700px;
+}
+.page-info a {
+  text-transform: uppercase;
+  color: var(--clrPrimary5);
+  transition: var(--transition);
+}
+.page-info a:hover {
+  color: var(--clrPrimary1);
+}
 /*
 =============== 
 Products Page
